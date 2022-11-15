@@ -3,19 +3,13 @@ import subprocess
 import sys
 import os
 import os.path
-print '''###################################################################################
-#                                                                                 #
-#                      #######     ##      #  #    #  #    #                      #
-#                      #          #  #    #    #  #    #  #                       #
-#                      ######    #   #   #      ##      ##                        #
-#                      #        #    # #        ##     #  #                       #
-#                      ######  #     ##         ##    #    #                      #
-#                                                                                 #
+print 
+
 #                           SNMP IPv6 Enumerator Tool                             #
 #                                                                                 #
 #                   Author: Thanasis Tserpelis aka Trickster0                     #
 #                                                                                 #
-###################################################################################
+
 \r\n'''
 if len(sys.argv)<4:
 	print "[+] Usage: " + str(sys.argv[0]) + " snmpversion communitystring IP"
